@@ -1,1 +1,6 @@
 # Homework-10-Team-Profile-Generator
+*The files inside of the test folder and the src folder were supplied by our instructors!*
+
+This is a command-line application that uses Inquirer to prompt the user to enter employee information and then creates an HTML file displaying that information. The employee profiles are generated using class constructors and then tested using JEST. First the application prompts the user for manager information and generates an object using the appropriate constructor class. It pushes this object to the team array, and then runs the next prompt. This prompt allows the user to add additional employees of the other types and again saves their response to a new object of the corresponding class and pushes it into the team array. Once the user selects the option to finish entering employees the application runs the pageTemplate application passing the team array and then writes the output of that function to a new html file.
+
+I have included the walkthrough video link in my submission, and the sample html file that I generated in that video is the one inside of the dist folder. The files labeled nonfunc are previous attempts at having each prompt separated into its own file. The passage of information between them got complicated and I wound up just doing them all in one place.
